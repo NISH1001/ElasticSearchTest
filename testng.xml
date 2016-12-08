@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.codingparadox.elastic.AutoComplete"/>
+      <class name="com.codingparadox.CRUDTest"/>
+      <class name="com.codingparadox.ConnectionTest"/>
+      <class name="com.codingparadox.AutoCompleteTest"/>
+      <class name="com.codingparadox.elastic.Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,38 @@
+[
+	{
+    	"user" : "Digya",
+    	"title" : "Engineer",
+    	"body" : "I am an electronics engineer. I love programming and hardware."
+	},
+
+	{
+    	"user" : "Nishan",
+    	"title" : "Engineer",
+    	"body" : "I am a computer engineer. I love programming and music."
+	},
+
+	{
+    	"user" : "Ram",
+    	"title" : "Businessman",
+    	"body" : "I am a businessman. I love to make complex deals."
+	},
+
+	{
+    	"user" : "Sita",
+    	"title" : "Entrepreneur",
+    	"body" : "I am an entrepreneur. I love to inspire others."
+	},
+	
+	{
+		"user" : "Saurav",
+		"title" : "Engineer",
+		"body"	: "I am a civil engineer. I love to do structural analysis."
+	},
+	
+	{
+		"user"	: "Niyukta",
+		"title"	: "Student",
+		"body"	: "I am a student of biology."
+	}
+
+]

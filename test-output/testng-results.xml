@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1263" started-at="2016-12-07T11:45:23Z" finished-at="2016-12-07T11:45:25Z">
+    <groups>
+      <group name="ConnectionTest.connect">
+        <method signature="ConnectionTest.connect()[pri:0, instance:com.codingparadox.ConnectionTest@3fffff43]" name="connect" class="com.codingparadox.ConnectionTest"/>
+      </group> <!-- ConnectionTest.connect -->
+    </groups>
+    <test name="Default test" duration-ms="1263" started-at="2016-12-07T11:45:23Z" finished-at="2016-12-07T11:45:25Z">
+      <class name="com.codingparadox.ConnectionTest">
+        <test-method status="PASS" signature="connect()[pri:0, instance:com.codingparadox.ConnectionTest@3fffff43]" name="connect" duration-ms="72" started-at="2016-12-07T17:30:23Z" finished-at="2016-12-07T17:30:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connect -->
+      </class> <!-- com.codingparadox.ConnectionTest -->
+      <class name="com.codingparadox.CRUDTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.codingparadox.CRUDTest@a8e6492]" name="before" is-config="true" duration-ms="0" started-at="2016-12-07T17:30:24Z" finished-at="2016-12-07T17:30:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="checkIndex()[pri:0, instance:com.codingparadox.CRUDTest@a8e6492]" name="checkIndex" duration-ms="6" started-at="2016-12-07T17:30:24Z" finished-at="2016-12-07T17:30:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIndex -->
+        <test-method status="PASS" signature="deleteIndex()[pri:0, instance:com.codingparadox.CRUDTest@a8e6492]" name="deleteIndex" duration-ms="41" depends-on-groups="ConnectionTest.connect" started-at="2016-12-07T17:30:24Z" depends-on-methods="com.codingparadox.CRUDTest.checkIndex" finished-at="2016-12-07T17:30:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteIndex -->
+        <test-method status="PASS" signature="insert()[pri:1, instance:com.codingparadox.CRUDTest@a8e6492]" name="insert" duration-ms="1007" started-at="2016-12-07T17:30:24Z" finished-at="2016-12-07T17:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insert -->
+        <test-method status="PASS" signature="readAll()[pri:2, instance:com.codingparadox.CRUDTest@a8e6492]" name="readAll" duration-ms="65" started-at="2016-12-07T17:30:25Z" finished-at="2016-12-07T17:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readAll -->
+        <test-method status="PASS" signature="update()[pri:3, instance:com.codingparadox.CRUDTest@a8e6492]" name="update" duration-ms="38" started-at="2016-12-07T17:30:25Z" finished-at="2016-12-07T17:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+      </class> <!-- com.codingparadox.CRUDTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

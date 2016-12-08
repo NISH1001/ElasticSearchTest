@@ -1,0 +1,11 @@
+{
+  "people" : {
+    "text" : "Nyu",
+    "completion" : {
+      "field" : "name_suggest",
+      "fuzzy" : {
+          "fuzziness" : 4
+        }
+    }
+  }
+}
